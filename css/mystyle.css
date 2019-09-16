@@ -495,10 +495,16 @@ h2{
     font-weight: 600;
 }
 
-@media screen and(max-width: 500px){
+@media screen (max-width: 500px){
 
     .panel-primary{
 
         margin-top: 10em;
+    }
+
+    .h2{
+
+        font-size:15px;
+
     }
 }
